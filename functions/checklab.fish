@@ -1,5 +1,5 @@
-# Defined in /tmp/fish.X9UE9J/checklab.fish @ line 2
-function checklab --description "check CIS lab machines for users and uptime"
+# Defined in /tmp/fish.EH4PUG/checklab.fish @ line 2
+function checklab
 	set idx_min 1
     switch $argv[1]
         case arch

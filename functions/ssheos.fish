@@ -1,3 +1,4 @@
+# Defined in /tmp/fish.ilLvCl/ssheos.fish @ line 2
 function ssheos --description 'connect to random eos server with ssh'
 	set min_idx 1
     set max_idx 32
