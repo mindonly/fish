@@ -28,15 +28,15 @@ if test (hostname) = "halfmoon.local"
     abbr -a make 'gmake'
     abbr -a factor gfactor
     # ZBS
-        if status --is-login
-            eval $HOME/Dropbox/bin/zbs
-        end
+    if status is-login
+        eval $HOME/Dropbox/bin/zbs
+    end
 end
 
 # mindonly Kubuntu
 if test (hostname) = "mindonly"
     set SHELL "/usr/bin/fish"
     set EDITOR "/usr/bin/vim"
-    eval (keychain --agents ssh --eval id_rsa)
-    eval $HOME/Dropbox/bin/zbs           # Zenbitchslap
+    eval (keychain -q --agents ssh id_rsa)
+    eval $HOME/Dropbox/bin/zbs
 end
