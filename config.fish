@@ -28,7 +28,7 @@ if test (hostname) = "halfmoon.local"
     abbr -a factor gfactor
     # ZBS
         if status --is-login
-            $HOME/Dropbox/bin/zbs
+            eval $HOME/Dropbox/bin/zbs
         end
 end
 
@@ -37,5 +37,5 @@ if test (hostname) = "mindonly"
     set SHELL "/usr/bin/fish"
     set EDITOR "/usr/bin/vim"
     eval (keychain --agents ssh --eval id_rsa)
-    $HOME/Dropbox/bin/zbs           # Zenbitchslap
+    eval $HOME/Dropbox/bin/zbs           # Zenbitchslap
 end
