@@ -9,6 +9,7 @@ fish_vi_key_bindings                # enable vi mode
 abbr -a ga 'git add'
 abbr -a gst 'git status'
 abbr -a gcmsg 'git commit -m'
+abbr -a grup 'git remote update'
 
 abbr -a t task
 abbr -a h history
