@@ -1,4 +1,4 @@
-# Defined in /tmp/fish.xLWXb5/ssharch.fish @ line 2
+# Defined in /tmp/fish.0fJJqs/ssharch.fish @ line 2
 function ssharch --description 'connect to random arch server with ssh'
 	set min_idx 1
     set max_idx 10

@@ -1,4 +1,4 @@
-# Defined in /tmp/fish.ZOVKEI/upd_repos.fish @ line 2
+# Defined in /tmp/fish.efQhkF/upd_repos.fish @ line 2
 function upd_repos
 	cd
     set host (hostname)
